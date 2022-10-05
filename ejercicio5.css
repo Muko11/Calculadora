@@ -1,0 +1,37 @@
+.contenedor {
+    background-color: lightsteelblue;
+    width: 70%;
+    padding: 3%;
+    border: 2px solid black;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+#op {
+    background-color: #ff9f0a;
+    color: white;
+    font-size: 25px;
+}
+
+#boton {
+    background-color: #343434;
+    color: white;
+    font-size: 25px;
+}
+
+#botonC {
+    background-color: #fe5c5c;
+    color: white;
+    font-size: 25px;
+}
+
+#resultado {
+    padding: 2%;
+    background-color: #343434;
+    color: white;
+    border: 2px solid black;
+}

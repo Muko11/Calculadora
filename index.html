@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="ejercicio5.css">
+    <script src="ejercicio5.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>CALCULADORA</h1>
+        <h3>Número 1:
+            <div id="numero1"></div>
+        </h3>
+
+        <h3>Operador:
+            <div id="operador"></div>
+        </h3>
+
+        <h3>Número 2:
+            <div id="numero2"></div>
+        </h3>
+
+
+        <h3 id="resultado">Aquí aparece el resultado</h3>
+
+        <button id="boton" value="9" onclick="rellenarNumeros(9, 9)">9</button>
+        <button id="boton" value="8" onclick="rellenarNumeros(8, 8)">8</button>
+        <button id="boton" value="7" onclick="rellenarNumeros(7, 7)">7</button>
+        <button id="op" value="+" onclick="pintarOperador('+');">+</button><br /><br />
+
+        <button id="boton" value="6" onclick="rellenarNumeros(6, 6)">6</button>
+        <button id="boton" value="5" onclick="rellenarNumeros(5, 5)">5</button>
+        <button id="boton" value="4" onclick="rellenarNumeros(4, 4)">4</button>
+        <button id="op" value="-" onclick="pintarOperador('-');">-</button><br /><br />
+
+        <button id="boton" value="3" onclick="rellenarNumeros(3, 3)">3</button>
+        <button id="boton" value="2" onclick="rellenarNumeros(2, 2)">2</button>
+        <button id="boton" value="1" onclick="rellenarNumeros(1, 1)">1</button>
+        <button id="op" value="x" onclick="pintarOperador('x');">x</button><br /><br />
+
+        <button id="boton" value="0" onclick="rellenarNumeros(0, 0)">0</button>
+        <button id="boton" value="." onclick="rellenarNumeros('.', '.')">.</button>
+        <button id="botonC" value="C" onclick="limpiar()">C</button>
+        <button id="op" value="/" onclick="pintarOperador('/');">/</button>
+        <button id="op" value="=" onclick="calcularOperacion();">=</button><br /><br />
+
+    </div>
+</body>
+
+</html>
